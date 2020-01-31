@@ -11,7 +11,8 @@ module.exports = {
         filename: 'app.bundle.js'
     },
     plugins: [new HtmlWebpackPlugin({
-        title:"test"
+        title:"test",
+        template: 'src/index.html'
     })],
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.json']
